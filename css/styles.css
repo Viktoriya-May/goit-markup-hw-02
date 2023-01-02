@@ -80,6 +80,12 @@ body{
     text-transform: capitalize;
 }
 .button-main{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: var(--primary-background-color);
     color: var(--primary-licht-color);
     cursor: pointer;
@@ -111,6 +117,12 @@ body{
     clip-path: inset(50%);
     margin: -1px;
 }
+.text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 /* -----------------------------------Footter--------------------------------------------------- */
 .footer {
     background-color: #2E2F42;
@@ -122,15 +134,13 @@ line-height: 1.16;
     color: #F4F4FD;
     line-height: 1.16;
 }
-.footer-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+.footers {
 color: #E7E9FC;
 }
 /* ---------------------------------------PORTFOLIO------------------------------------------------ */
 .buttons{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     background-color: #F4F4FD;;
     color:var(--primary-background-color);
     border-color: transparent;
@@ -139,10 +149,11 @@ color: #E7E9FC;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-      display: flex;
+    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
+
 }
 .buttons:hover,
 .buttons:focus {
